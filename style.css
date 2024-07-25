@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    font-family: Helvetica;
+    border: border-box;
+
+}
+
+
+@media screen {
+    
+}
+.top-section{
+    height: 600px;
+    width: 100%;
+    background-color: #084f8e;
+    background-image: url(images/sky2.png), linear-gradient(0deg, #2666a5, #083466);
+    overflow: hidden;
+    
+    
+
+}
+.top-section a{
+    color: white;
+}
+
+.top-section a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+.logo{
+    padding: 23px;
+    font-weight: 700;
+    font-size: 25px;
+    text-decoration: none;
+    float: left;
+    color: white;
+}
+.logo:hover{
+    color: white;
+    text-decoration: none;
+
+}
+
+.links button{
+    margin-right: 20px;
+    border-radius: 20px;
+    padding: 5px 20px;
+    border: none;
+    font-size: 18px;
+}
+.links button:hover{
+    background-color: rgb(214, 214, 214);
+}
+.moon img{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 70px 20px rgba(255, 255, 255,0.5);
+    
+    
+    
+}
+.learn{
+    position: absolute;
+    top: 30%;
+    right: 20%;
+}
+.learn h1{
+    font-size: 40px;
+    margin: 20px 0px;
+    color: white;
+}
+
+.learn button{
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: none;
+    color: #084f8e;
+    
+}
+.learn button:hover{
+    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255,0.5);
+    color: rgb(26, 26, 26);
+}
+.float{
+    position: relative;
+    margin-bottom: 0px;
+    top: 500px;
+    width: 100%;
+}
+
+.clouds{
+    height: 120px;
+    width: 100%;
+    position: absolute;
+    
+    
+}
+
+.cloud1{
+    background-size: auto;
+    margin-top: -50px;
+    
+    background-image: url(https://static.typingclub.com/m/tpmedia/img/clouds3.png);
+}
+.cloud2{
+    margin-top: -10px;
+    background-size: auto;
+    
+    background-image: url(https://static.typingclub.com/m/tpmedia/img/clouds1.png);
+}
+.cloud3{
+    margin-bottom: 1px;
+    background-size: auto;
+    
+    background-image: url(https://static.typingclub.com/m/tpmedia/img/clouds2.png);
+
+}
+.browser{
+    padding: 200px 20px;
+}
+
+
+
+
+.panel{
+    background-color: #084f8e;
+    
+ }
+ .panel-content{
+    justify-content: center;
+    
+    padding: 40px 100px;
+ }
+
+ .panel-content .contents{
+    
+    display: inline-flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+ }
+ .contents i{
+    font-size: 40px;
+    opacity: .3;
+    padding: 0px 20px;
+    margin-top: -20px;
+ }
+ .contents h4{
+    font-size: 20px;
+ }
+ .contents span{
+    font-size: 15px;
+    opacity: .5;
+ }
+ .contents p{
+    font-weight: 100;
+    opacity: 0.7;
+    font-size: 14px;
+ }
+
+
+ .question2{
+    width: 360px;
+    padding: 0px 10px;
+}
+
+.question2 h3{
+    font-size: 28px;
+    margin: 10px 0px 5px;
+}
+
+.question2 p{
+    font-size: 16px;
+    color: #6c6f73;
+    margin: 10px 0px;
+    font-weight: 100;
+    line-height: 20px;
+}
+
+
+.footer-link{
+    font-size: 16px; color: #bec1c4;
+}
+
